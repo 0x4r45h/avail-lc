@@ -1,0 +1,2 @@
+Download the new binary, build it using `docker compose build` and re run the client.
+if you are running for first time make sure back up the public key in the console and the seed file inside the container in `identity.toml` file
