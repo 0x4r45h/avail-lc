@@ -16,10 +16,13 @@ services:
       - goldberg
       - --port
       - "37000"
+      - --config
+      - "/root/config.yaml"
     ports:
       - "37000:37000"
     volumes:
       - avail_lc:/root/avail
+      - ./config.yaml:/root/config.yaml
 networks:
   public:
     external: true
