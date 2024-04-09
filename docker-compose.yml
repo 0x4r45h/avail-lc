@@ -12,8 +12,6 @@ services:
         max-size: "12m"
         max-file: "5"
     command:
-      - --network
-      - goldberg
       - --port
       - "37000"
       - --config
